@@ -1,0 +1,5 @@
+services:
+  regression-app:
+    build: ./web
+    ports:
+      - "8080:9090"  # Host port: Container port
